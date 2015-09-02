@@ -34,10 +34,6 @@
       <div class="container">
         <nav class="blog-nav">
           <a class="blog-nav-item active" href="#">Home</a>
-          <a class="blog-nav-item" href="#">New features</a>
-          <a class="blog-nav-item" href="#">Press</a>
-          <a class="blog-nav-item" href="#">New hires</a>
-          <a class="blog-nav-item" href="#">About</a>
         </nav>
       </div>
     </div>
@@ -46,7 +42,7 @@
 
       <div class="blog-header">
         <h1 class="blog-title">Legenddh Blog</h1>
-        <p class="lead blog-description">The official example template of creating a blog with Bootstrap.</p>
+        <p class="lead blog-description"></p>
       </div>
 
       <div class="row">
@@ -55,7 +51,7 @@
 
           <div class="blog-post">
             <h2 class="blog-post-title">{{blog.title}}</h2>
-            <p class="blog-post-meta">{{blog.date}}</p>
+            <p class="blog-post-meta">{{blog.date}} By {{blog.author}}</p>
             {{blog.summary}}
           </div><!-- /.blog-post -->
 
